@@ -1,0 +1,29 @@
+1. Configure Git with my Name and Email
+git config --global user.name "Abhishek K N"
+git config --global user.email "abhishekkn46@gmail.com"
+
+2. Clone the Project Repository from GitHub
+git clone https://github.com/example/repo.git
+
+3. Create and Switch to a New Branch
+git checkout -b new-feature
+
+4. Add a New File (feature.py) to my Branch
+touch feature.py
+git add feature.py
+
+5. Commit my Changes with a Message
+git commit -m "Add new feature implementation"
+
+6. Push my Changes to the Remote Repository
+git push origin new-feature
+
+7. Pull the Latest Changes from the Main Branch
+git pull origin main
+
+8. Remove the feature.py File from my Branch
+git rm feature.py
+
+9. Commit the Removal and Push the Changes
+git commit -m "Remove feature.py file"
+git push origin new-feature
